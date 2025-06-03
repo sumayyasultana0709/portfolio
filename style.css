@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+/* NAVIGATION */
+header {
+  background-color: #fff;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+/* HERO SECTION */
+.hero {
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.hero .text {
+  max-width: 600px;
+}
+
+.hero .text h1 {
+  font-size: 48px;
+  line-height: 1.3;
+}
+
+.hero .text .highlight {
+  font-size: 56px;
+  color: orange;
+  font-weight: bold;
+}
+
+.hero .highlight-red {
+  color: crimson;
+  font-weight: bold;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: royalblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a img {
+  width: 32px;
+  margin-right: 10px;
+}
+
+.image img {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
